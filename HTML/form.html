@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="D:\Bano Qabil\HTML\download.jpeg" height="52" width="52" >
+    <font size="+3" color="red">Employee Registration Form</font>
+    <form onsubmit="">
+        <table border="1">
+            <tr>
+                <td></td>
+                <td>
+                    <input type="radio" required id="Mr." value="Mr." name="gender"><label for="Mr.">Mr.</label>
+                    <input type="radio" required id="Mrs." value="Mrs." name="gender"><label for="Mrs.">Mrs.</label>
+                    <input type="radio" required id="Ms." value="Ms." name="gender"><label for="Ms.">Ms.</label>
+                </td>
+            </tr>
+            <tr>
+                <td>First Name</td>
+                <td><input type="text" name="fn" placeholder="First Name"></td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td><input type="text" name="ln" placeholder="Last Name"></td>
+            </tr>
+            <tr>
+                <td>Mail Addres1</td>
+                <td><input type="text" name="add1"></td>
+            </tr>
+            <tr>
+                <td>Mail Addres2</td>
+                <td><input type="text" name="add2"></td>
+            </tr>
+            <tr>
+                <td>City</td>
+                <td><input type="text" name="ct"></td>
+            </tr>
+            <tr>
+                <td>State</td>
+                <td>
+                    <select name="State" id="">
+                        <option value="">Select your country </option>
+                        <option value="paksitan">Pakistan </option>
+                        <option value="India">India</option>
+                        <option value="Srilanka">Srilanka</option>
+                        <option value="Nepal" selected>Nepal</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Zip</td>
+                <td><input type="number" name="Zip"></td>
+            </tr>
+            <tr>
+                <td>Upload Photo</td>
+                <td><input type="file" name="CV">
+            </tr>
+            <tr>
+                <td>E-Mail</td>
+                <td><input type="email" name="E-Mail">
+            </tr>
+            <tr>
+                <td>Mobile No</td>
+                <td><input type="number"  name="Mobile" placeholder="+92">
+            </tr>
+            <tr>
+                <td>Languages </td>
+                <td><input type="checkbox" name="lang" value="Hindko" >Hindko</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="checkbox" name="lang" value="English" >English</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="checkbox" name="lang" value="Urdu" checked>Urdu</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="checkbox" name="lang" value="Arbi" >Arbi</td>
+            </tr>
+            <tr>
+                <td>Additional Information</td>
+                <td><textarea name="add" rows="3" cols="20" placeholder="Optional" wrap="hard"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type=submit value=submit>&nbsp;<input type=reset value=reset></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
